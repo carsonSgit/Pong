@@ -5,7 +5,7 @@
  * Done as Game Programming assignment for
  * John Abbott College's Computer Science Program
  * 
- * Some code is 
+ * Followed by lead of assignment
  */
 
 
