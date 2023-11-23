@@ -5,7 +5,7 @@
  * Done as Game Programming assignment for
  * John Abbott College's Computer Science Program
  * 
- * Followed by lead of assignment
+ * Followed by lead of assignment with some personal
  */
 
 
@@ -24,6 +24,8 @@ canvas.setAttribute('tabindex',1);  // Enable keyboard functionality
 // Add canvas to document and set background colour
 document.body.appendChild(canvas);
 canvas.style.backgroundColor = 'black';
+
+let singleplayer = true;// Enable single player
 
 // Custom font...
 const myFont = new FontFace('PublicPixel', 'url(./font/public_pixel.ttf)');
@@ -105,7 +107,9 @@ function update(dt) {
     if(gameState === "play"){
         ball.update(dt,player1,player2);
         // PONG "AI"
-        player2.trackBall(ball.y);
+        if(singleplayer){
+            player2.trackBall(ball.y);
+        }
 
         // player 2 scores
         if(ball.x + ball.width < 0){
