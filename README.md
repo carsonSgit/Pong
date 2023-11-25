@@ -1,11 +1,36 @@
-# Pong Game Readme
+# Pong Game
 ## Contributors
  - Vikram Singh: My teacher who created the base of this game
  - Carson Spriggs-Audet: Accomplished the instructions given to me and added extra functionality.
+
 ## Overview
 
 This is a simple implementation of the classic Pong game using HTML, CSS, and JavaScript. The game features two paddles, a ball, and basic game mechanics such as scoring, serving, and victory conditions. 
 The code structure includes separate classes for the paddles and the ball, promoting modularity and maintainability.
+
+# Screenshots
+
+## Begin Screen
+
+![beginScreen](https://github.com/carsonSgit/Pong/assets/92652800/2e115039-bd02-4390-9988-5d7cdad2dc0d)
+
+## Serve Screen
+
+![serveScreen](https://github.com/carsonSgit/Pong/assets/92652800/5d55226b-27c2-4ef0-8f57-a458c8580b67)
+
+## In Play
+
+![inPlay](https://github.com/carsonSgit/Pong/assets/92652800/0eeafeb3-670e-436f-b2a4-62b5b74eda32)
+
+## Player Scored
+
+![hasScore](https://github.com/carsonSgit/Pong/assets/92652800/e3a73d14-4b76-4e16-a7cd-bd34dbc7b5ad)
+
+## Toggle for multiplayer
+
+In main.js, line 28 toggle this depending on your preference.
+
+![mainSingleplayerToggle](https://github.com/carsonSgit/Pong/assets/92652800/f84cdf16-1ecf-478d-a58f-25389e9596cf)
 
 ## How to Play
 
